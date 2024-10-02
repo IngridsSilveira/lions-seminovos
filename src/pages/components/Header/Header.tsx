@@ -7,7 +7,7 @@ import logo from "../../../assets/images/logo.png";
 
 export const Header = () => {
     return (
-        <Navbar expand="lg" className="bg-red-700" variant='dark'>
+        <Navbar expand="lg" className="bg-red-800" variant='dark'>
           <Container fluid>
             <Navbar.Brand href="https://www.lionsseminovos.com.br/" target='_blank'><img src={logo} alt="logo lion seminovos" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll"/>

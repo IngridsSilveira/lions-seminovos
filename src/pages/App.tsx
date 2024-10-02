@@ -1,9 +1,9 @@
-import { Header, Section, Footer } from "./components/index";
+import { Header, Default, Footer } from "./components/index";
 function App() {
   return (
-    <div className="bg-slate-500 h-screen w-screen">
+    <div className="h-screen w-screen">
       <Header/>
-      <Section/>
+      <Default/>
       <Footer/>
     </div>
   );

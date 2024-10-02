@@ -9,7 +9,7 @@ export const Footer = () => {
         <h1 className="font-playwrite shadow-lg shadow-white text-3xl text-red-600">Lions <br />Seminovos</h1>
         <div>
           <h2 className="text-lg underline cursor-pointer">About</h2>
-          <p className="">Conheça mais sobre a Lions Seminovos</p>
+          <p className="">Conheça mais sobre a Lions!!</p>
         </div>
         <div>
           <h2 className="text-lg underline cursor-pointer">Contate-nos</h2>

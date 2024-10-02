@@ -9,7 +9,10 @@ module.exports = {
       fontFamily: {
         'roboto': ["Fredoka", "sans-serif"],
         'playwrite': ["Playwrite DE Grund", "cursive"],
-      }
+      },
+      backgroundImage: {
+        'c-background': "url('/public/bg.jpg')",
+       }
     },
     screens: {
       'sm': '640px',
