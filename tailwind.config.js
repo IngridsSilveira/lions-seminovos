@@ -6,7 +6,16 @@ module.exports = {
 ],
   theme: {
     extend: {
-      fontFamily: ["Roboto", "sans-serif"],
+      fontFamily: {
+        'roboto': ["Fredoka", "sans-serif"],
+        'playwrite': ["Playwrite DE Grund", "cursive"],
+      }
+    },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
     },
   },
   plugins: [],
