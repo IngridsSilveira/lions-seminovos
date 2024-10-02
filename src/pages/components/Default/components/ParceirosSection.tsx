@@ -1,48 +1,46 @@
-import { useState, useEffect } from "react";
-import {Button} from "../../index";
+import peopleBussines from '../../../../assets/images/peopleBussines.png';
 
 export const ParceirosSection = () => {
-  const [windowWidth, setwindowWidth] = useState(window.innerWidth);
-
-  useEffect(() => {
-    const handleResize = () => setwindowWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-
-    // Limpar o evento quando o componente for desmontado
-    return () => window.removeEventListener("resize", handleResize);
-  });
   return (
     <section className="bg-c-background bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center">
-      {/* div itens */}
-      <div className="w-full flex items-center justify-center p-3">
-        {/* div texto e botão */}
-
-        <div className="font-sans flex flex-col items-center justify-center gap-3">
-          {/* textos */}
-          <div>
-            <h1 className="font-black text-3xl sm:text-4xl mb-1 leading-8 sm:leading-10 text-start">
-              Fature muito com a <br />
-              melhor concessionaria <br />
-              de seminovos do Brasil
-            </h1>
-            <p className="text-sm sm:text-lg text-gray-600 break-words max-w-96">
-              Um portal pensado exclusivamente em quem deseja crescer junto com
-              a Lions Seminovos, a rede que mais cresce no Brasil.
-            </p>
-          </div>
-          {/* botão */}
-         <Button texto="Clique aqui" />
+      <div className="w-full flex flex-col items-center justify-center pt-4">
+        {/* textos */}
+        <div className="flex flex-col items-center justify-center w-2/3">
+          <h1 className="font-black text-3xl sm:text-4xl mb-1 leading-8 sm:leading-10 text-start">
+            Nossos parceiros possuem todo suporte necessário para alcançar o
+            sucesso nas vendas.
+          </h1>
+          <p className="text-sm sm:text-lg text-gray-600">
+            Contamos com uma equipe totalmente especializada em vendas que
+            acompanhará cada etapa para a realização da sua venda.
+          </p>
         </div>
 
         {/* imagem */}
-        {windowWidth >= 768 && (
-          <img className="w-72" src="" alt="garota apontando" />
-        )}
+        <div className="relative font-serif">
+          <div className="bg-red-700 w-40 h-20 p-3 flex items-center justify-center text-center rounded-xl absolute right-0 bottom-1 sm:-right-20 sm:top-32">
+            <p className="font-black text-white leading-5">
+              Diversas estratégias de vendas
+            </p>
+          </div>
+          <img
+            className="w-96 mt-3"
+            src={peopleBussines}
+            alt="trabalhadores de terno"
+          />
+          <div className="bg-red-700 w-44 h-20 p-3 flex items-center justify-center text-center rounded-xl absolute bottom-1 sm:-left-14 sm:bottom-3">
+            <p className="font-black text-white leading-5">
+              Possuímos a melhor comissão do mercado
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* div bg vermelho */}
-      <div className="bg-red-800 text-white p-3 h-28 w-full flex items-center justify-around">
-       
+      <div className="bg-white h-28 w-full flex items-center justify-center">
+        <h1 className="font-black text-xl text-red-600 sm:text-3xl w-full sm:w-2/4 text-center">
+          Oportunidade única para quem deseja realmente mudar de vida.
+        </h1>
       </div>
     </section>
   );

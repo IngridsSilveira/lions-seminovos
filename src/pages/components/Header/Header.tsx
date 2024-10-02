@@ -4,8 +4,14 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../../../assets/images/logo.png";
+// import { useState } from 'react';
 
 export const Header = () => {
+  // const [inputPesquisa, setInputPesquisa] = useState()
+  const teste = (e:any) => {
+    console.log(e);
+  }
+
     return (
         <Navbar expand="lg" className="bg-red-800" variant='dark'>
           <Container fluid>
@@ -24,6 +30,7 @@ export const Header = () => {
                   placeholder="Pesquisar"
                   className="me-2"
                   aria-label="Search"
+                  onChange={(e) => teste(e.target.value)}
                 />
                 <Button className='bg-slate-800 border-none hover:bg-slate-900 font-serif'>Buscar</Button>
               </Form>
