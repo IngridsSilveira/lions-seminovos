@@ -1,9 +1,16 @@
-import { Header, Default, Footer } from "./components/index";
+import { Header, 
+  FatureSection,
+  ParceirosSection,
+  CategoriaSection,
+  Footer } from "./components/index";
+
 function App() {
   return (
     <>
       <Header />
-      <Default />
+      <FatureSection />
+      <ParceirosSection />
+      <CategoriaSection />
       <Footer />
     </>
   );

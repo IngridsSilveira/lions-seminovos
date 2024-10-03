@@ -1,12 +1,16 @@
 interface ButtonProps {
-    texto: string;
-    width: string;
+  texto: string;
+  width: string;
 }
-export const Button: React.FC<ButtonProps> = ({texto, width}) => {
-    return (
-        <button className={`py-3 bg-red-700 hover:bg-red-800 rounded-xl text-white m-auto`}
-        style={{ width }}>
-        <a href="https://www.lionsseminovos.com.br/">{texto}</a>
-      </button>
-    )
-}
+export const Button: React.FC<ButtonProps> = ({ texto, width }) => {
+  return (
+    <a
+      className={`py-3 bg-vermelho text-white font-bold font-roboto hover:bg-yellow-600 hover:transition-all hover:delay-150 rounded-xl text-white m-auto text-center`}
+      style={{ width }}
+      href="https://www.lionsseminovos.com.br/"
+      aria-label="Visite nosso site"
+    >
+      {texto}
+    </a>
+  );
+};
