@@ -22,6 +22,22 @@ Organizei o projeto em diferentes pastas para manter a modularidade e a clareza 
 
 * Para o menu de navegação responsivo, optei por usar Bootstrap, uma biblioteca robusta e popular para criar layouts responsivos com menor esforço.
 
+#### 🔍 Busca de Palavras
+
+Implementei uma funcionalidade de busca que permite aos usuários procurar palavras-chave específicas.
+
+
+No menu de navegação, você encontrará um campo de pesquisa.
+Digite uma das seguintes palavras-chave:
+* Fature
+* Lions
+* Seminovos
+* Parceiros
+* Categorias
+
+Clique no botão "Buscar".
+
+Se a palavra estiver na lista, o campo de entrada mudará para verde e uma mensagem de sucesso será exibida. Se a palavra não estiver na lista, o campo mudará para preto e uma mensagem de erro será apresentada.
 
 #### Padrões e Organização
 
@@ -50,14 +66,17 @@ Para garantir que o site seja totalmente responsivo:
 
 1. Clone o repositório
 
-* git clone https://github.com/seu-usuario/nome-do-repositorio.git
-* cd nome-do-repositorio
+        git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+        cd nome-do-repositorio
 
 2. Instale as dependências:
-* npm install ou yarn install
+
+        npm install ou yarn install
 
 3. Execute a aplicação
-* npm run dev ou yarn start
+
+        npm run dev ou yarn start
 
 ## 📦 Tecnologias usadas:
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
