@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+![Logo do projeto](./public/img/print2.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Lions Seminovos - Landing Page
+Este projeto é uma landing page desenvolvida como parte de um desafio front-end, com foco em organização de código, boas práticas de desenvolvimento, acessibilidade e SEO. A aplicação foi construída utilizando React, TypeScript, TailwindCSS, Bootstrap e React Icons, com a intenção de entregar uma interface moderna, responsiva e otimizada para SEO.
 
-## Available Scripts
+## 🖥️ Decisões Tomadas
+#### Estrutura do Projeto
 
-In the project directory, you can run:
+Organizei o projeto em diferentes pastas para manter a modularidade e a clareza do código:
 
-### `npm start`
+* /assets: Imagens e arquivos estáticos utilizados na página.
+* /components: Componentes reutilizáveis, como botões e seções específicas.
+* /pages: Componentes principais que representam diferentes páginas ou seções maiores da aplicação.
+* /styles: Utilizei o Tailwind CSS para estilização, com customização de cores e breakpoints para garantir uma boa responsividade.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Acessibilidade e SEO
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Acessibilidade: Usei tags semânticas como  e adicionei descrições em imagens com o atributo alt para garantir que o conteúdo seja acessível a todos.
+* SEO: Otimizei o projeto utilizando boas práticas como títulos claros, descrições adequadas, e uma hierarquia de cabeçalhos consistente.
 
-### `npm test`
+#### Uso do Bootstrap
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Para o menu de navegação responsivo, optei por usar Bootstrap, uma biblioteca robusta e popular para criar layouts responsivos com menor esforço.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Padrões e Organização
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Implementei uma organização clara de arquivos e componentes, utilizando TypeScript para garantir a tipagem e evitar bugs. Também usei React Hooks (como useState e useEffect) para lidar com eventos e mudanças no layout com base no tamanho da tela.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Responsividade
 
-### `npm run eject`
+Para garantir que o site seja totalmente responsivo:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Bootstrap foi utilizado para o menu de navegação, aproveitando seus utilitários e classes de grid.
+* Tailwind CSS foi usado para ajustar outros elementos de layout de acordo com os breakpoints definidos.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🔥 Screenshots
+![Logo do projeto](./public/img/print2.png)
+![Logo do projeto](./public/img/print3.png)
+![Logo do projeto](./public/img/print4.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🔨 Guia de instalação
+#### Pré-requisitos
 
-## Learn More
+    Node.js (v14 ou superior)
+    npm ou yarn instalado
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Instalação:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone o repositório
+
+* git clone https://github.com/seu-usuario/nome-do-repositorio.git
+* cd nome-do-repositorio
+
+2. Instale as dependências:
+* npm install ou yarn install
+
+3. Execute a aplicação
+* npm run dev ou yarn start
+
+## 📦 Tecnologias usadas:
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)<br>
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+## 👷 Autores
+
+* **Ingrid Souza** - *Front-End* - [GitHub](https://github.com/IngridsSilveira)
