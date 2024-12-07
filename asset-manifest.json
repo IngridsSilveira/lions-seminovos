@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lions-seminovos/static/css/main.49bc94f5.css",
+    "main.js": "/lions-seminovos/static/js/main.e665c2b1.js",
+    "static/js/453.40147714.chunk.js": "/lions-seminovos/static/js/453.40147714.chunk.js",
+    "static/media/girlPointTop.png": "/lions-seminovos/static/media/girlPointTop.a0322c49111fe6989f4e.png",
+    "static/media/womanPoint2.png": "/lions-seminovos/static/media/womanPoint2.856c6bbab6be56b47612.png",
+    "static/media/peopleBussines.png": "/lions-seminovos/static/media/peopleBussines.cdd93e5df6108d3b72b3.png",
+    "static/media/bronze2.png": "/lions-seminovos/static/media/bronze2.cc0bb0f5449977c6c52f.png",
+    "static/media/gold2.png": "/lions-seminovos/static/media/gold2.866f77d020991a1d6250.png",
+    "static/media/prata2.png": "/lions-seminovos/static/media/prata2.3134ab97387009cced8e.png",
+    "static/media/anywhere.png": "/lions-seminovos/static/media/anywhere.98739c26b2f725750956.png",
+    "static/media/salary.png": "/lions-seminovos/static/media/salary.b967229c9851525e0cc4.png",
+    "static/media/profits.png": "/lions-seminovos/static/media/profits.bddd7063d93f7fe718bc.png",
+    "static/media/bg.jpg": "/lions-seminovos/static/media/bg.6df36baa4df2e9233bcb.jpg",
+    "index.html": "/lions-seminovos/index.html",
+    "main.49bc94f5.css.map": "/lions-seminovos/static/css/main.49bc94f5.css.map",
+    "main.e665c2b1.js.map": "/lions-seminovos/static/js/main.e665c2b1.js.map",
+    "453.40147714.chunk.js.map": "/lions-seminovos/static/js/453.40147714.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49bc94f5.css",
+    "static/js/main.e665c2b1.js"
+  ]
+}
